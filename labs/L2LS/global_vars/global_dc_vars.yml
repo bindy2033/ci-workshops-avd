@@ -67,3 +67,9 @@ logging_settings:
     - name: 10.200.1.108
   vrfs:
     - name: default
+    # Login Banner
+custom_structured_configuration_banners:
+  motd: |
+    You shall not pass. Unless you are authorized. Then you shall pass.
+    EOF
+    
